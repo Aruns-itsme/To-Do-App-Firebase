@@ -17,7 +17,6 @@ project-root/
 │   └── package.json (Function dependencies)
 ├── firestore.rules (Firestore security rules)
 ├── firebase.json (Firebase project configuration file)
-
 ```
 
 ## Prerequisites
