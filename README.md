@@ -1,12 +1,12 @@
 # Firebase To-Do Application
 
-This repository contains a simple To-Do application built using Firebase Functions, Firestore, and Firebase Authentication. The goal is to allow users to add, update, delete, and set reminders for their tasks. This project serves as an example of integrating Firebase into a serverless, cloud-based application.
+This repository contains a simple To-Do application built using Firebase. The goal is to allow users to add, update, delete, and set tasks. 
 
 ## Project Structure
 
 ```
 project-root/
-├── public/
+├── app/
 │   ├── index.html (Login page)
 │   ├── register.html (User registration page)
 │   ├── tasks.html (Tasks management page)
@@ -17,9 +17,7 @@ project-root/
 │   └── package.json (Function dependencies)
 ├── firestore.rules (Firestore security rules)
 ├── firebase.json (Firebase project configuration file)
-├── .firebaserc (Firebase project alias configuration)
-├── .gitignore (Git ignore file)
-└── README.md (This file)
+
 ```
 
 ## Prerequisites
@@ -27,7 +25,6 @@ project-root/
 - **Node.js** (v12 or above)
 - **Firebase CLI**
 - **Firebase Project**: You need to create a Firebase project from the Firebase Console.
-- **Git**: To version control the project and push to GitHub.
 
 ## Setup Instructions
 
