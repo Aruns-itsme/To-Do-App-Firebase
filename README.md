@@ -99,9 +99,3 @@ In the Firebase Console, you need to create Firestore collections:
         - `task`: "Buy groceries"
         - `completed`: false
         - `createdAt`: timestamp
-
-## Important Notes
-
-- Make sure to set up **Firestore Rules** to allow read and write access to authenticated users only.
-- Proper error handling has been implemented in Cloud Functions to throw Firebase `HttpsError` when necessary.
-
