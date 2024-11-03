@@ -1,26 +1,32 @@
 {
-  "name": "functions",
-  "description": "Cloud Functions for Firebase",
-  "scripts": {
-    "lint": "eslint .",
-    "serve": "firebase emulators:start --only functions",
-    "shell": "firebase functions:shell",
-    "start": "npm run shell",
-    "deploy": "firebase deploy --only functions",
-    "logs": "firebase functions:log"
-  },
-  "engines": {
-    "node": "18"
-  },
-  "main": "index.js",
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "private": true,
   "dependencies": {
-    "firebase-admin": "^12.1.0",
-    "firebase-functions": "^5.0.0"
+    "firebase": "^9.0.0",             // Add Firebase dependency
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "^5.0.0"        // Only if using Create React App
   },
-  "devDependencies": {
-    "eslint": "^8.15.0",
-    "eslint-config-google": "^0.14.0",
-    "firebase-functions-test": "^3.1.0"
+  "scripts": {
+    "start": "react-scripts start",  // Starts the development server
+    "build": "react-scripts build",  // Builds the app for production (Netlify uses this)
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "private": true
+  "eslintConfig": {
+    "extends": ["react-app", "react-app/jest"]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
