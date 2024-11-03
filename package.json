@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "firebase": "^9.0.0",             // Add Firebase dependency
+    "firebase": "^9.0.0",             
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-scripts": "^5.0.0"        // Only if using Create React App
+    "react-scripts": "^5.0.0"       
   },
   "scripts": {
-    "start": "react-scripts start",  // Starts the development server
-    "build": "react-scripts build",  // Builds the app for production (Netlify uses this)
+    "start": "react-scripts start", 
+    "build": "react-scripts build",  
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
